@@ -18,7 +18,7 @@ namespace ProjetoPastelariaDoZe_2022.DAO
         public byte[] Foto { get; set; }
 
         /// <summary>
-        ///
+        /// 
         /// </summary>
         /// <param name="id"></param>
         /// <param name="nome"></param>
@@ -148,8 +148,6 @@ namespace ProjetoPastelariaDoZe_2022.DAO
             //Executa o script na conexão e retorna as linhas afetadas.
             var linhas = comando.ExecuteNonQuery();
         }
-
-
-
     }
 }
+

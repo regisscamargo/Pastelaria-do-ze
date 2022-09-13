@@ -1,0 +1,313 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="download1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="35ac9cb2310afcc96b3938e16b3eb01f" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\35ac9cb2310afcc96b3938e16b3eb01f.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="labelTituloLogin" xml:space="preserve">
+    <value>PASTELARIA</value>
+  </data>
+  <data name="buttonCadEstoque" xml:space="preserve">
+    <value>Cadastro de Produtos</value>
+  </data>
+  <data name="buttonCliEstoque" xml:space="preserve">
+    <value>Cliente</value>
+  </data>
+  <data name="buttonFuncEstoque" xml:space="preserve">
+    <value>Funcionário</value>
+  </data>
+  <data name="buttonLogin" xml:space="preserve">
+    <value>Acessar</value>
+  </data>
+  <data name="buttonSobre" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="buttonSobreEstoque" xml:space="preserve">
+    <value>Sobre</value>
+  </data>
+  <data name="groupBoxSobreDescricao" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="labelCulturaConfig" xml:space="preserve">
+    <value>Linguagem/Cultura</value>
+  </data>
+  <data name="labelDescricaoProdutos" xml:space="preserve">
+    <value>Descrição</value>
+  </data>
+  <data name="labelidFuncionario" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="labelidProdutos" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="labelLinguagemConfig" xml:space="preserve">
+    <value>Linguagem/Cultura</value>
+  </data>
+  <data name="labelMatriculaFuncionario" xml:space="preserve">
+    <value>Matricula</value>
+  </data>
+  <data name="labelMultaConfig" xml:space="preserve">
+    <value>Multa/Atraso</value>
+  </data>
+  <data name="labelNomeFuncionario" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="labelNomeProdutos" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="labelParametroConfig" xml:space="preserve">
+    <value>Parâmetros</value>
+  </data>
+  <data name="labelPercentualConfig" xml:space="preserve">
+    <value>Percentual</value>
+  </data>
+  <data name="labelReSenhaFuncionario" xml:space="preserve">
+    <value>Re-Senha</value>
+  </data>
+  <data name="labelSenhaFuncionario" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="labelSenhaLogin" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="labelSobreCompanhia" xml:space="preserve">
+    <value>Compainha</value>
+  </data>
+  <data name="labelSobreCopyright" xml:space="preserve">
+    <value>Copyright</value>
+  </data>
+  <data name="labelSobreNome" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="labelSobreVersao" xml:space="preserve">
+    <value>Versão</value>
+  </data>
+  <data name="labelTelefoneFuncionario" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="labelTituloConfig" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="labelTituloEstoque" xml:space="preserve">
+    <value>MENU GERAL</value>
+  </data>
+  <data name="labelTituloFuncionario" xml:space="preserve">
+    <value>Cadastro de Funcionários</value>
+  </data>
+  <data name="labelTituloProdutos" xml:space="preserve">
+    <value>Cadastro de Produtos</value>
+  </data>
+  <data name="labelUsuarioLogin" xml:space="preserve">
+    <value>Usuario</value>
+  </data>
+  <data name="labelValorProdutos" xml:space="preserve">
+    <value>Valor</value>
+  </data>
+  <data name="radioButtonAdm" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="radioButtonBalcao" xml:space="preserve">
+    <value>Balcão</value>
+  </data>
+  <data name="labelCpfFuncionario" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="buttonVoltarFunc" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="buttonConcluirCliente" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="buttonConcluirConfig" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="buttonConcluirFunc" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="buttonConcluirProd" xml:space="preserve">
+    <value>Concluir</value>
+  </data>
+  <data name="buttonVoltarCliente" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="buttonSalvarConfig" xml:space="preserve">
+    <value>Salvar</value>
+  </data>
+  <data name="buttonVoltarProd" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="labelCpfCliente" xml:space="preserve">
+    <value>CPF</value>
+  </data>
+  <data name="labelDiaFiadoCliente" xml:space="preserve">
+    <value>Dia Fiado</value>
+  </data>
+  <data name="labelidCliente" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="labelMarcaFiadoCliente" xml:space="preserve">
+    <value>Fiado</value>
+  </data>
+  <data name="labelNomeCliente" xml:space="preserve">
+    <value>Nome</value>
+  </data>
+  <data name="labelReSenhaCliente" xml:space="preserve">
+    <value>Re-Senha</value>
+  </data>
+  <data name="labelSenhaCliente" xml:space="preserve">
+    <value>Senha</value>
+  </data>
+  <data name="labelTelefoneCliente" xml:space="preserve">
+    <value>Telefone</value>
+  </data>
+  <data name="buttonConfigEstoque" xml:space="preserve">
+    <value>Configurações</value>
+  </data>
+  <data name="checkBoxIdioma" xml:space="preserve">
+    <value>reiniciar e aplicar idioma.</value>
+  </data>
+  <data name="buttonVoltarConfig" xml:space="preserve">
+    <value>Voltar</value>
+  </data>
+  <data name="Funcionarios_FormClosing" xml:space="preserve">
+    <value>a</value>
+  </data>
+  <data name="mng" xml:space="preserve">
+    <value>Deseja mesmo sair?</value>
+  </data>
+  <data name="mng2" xml:space="preserve">
+    <value>Confirmação</value>
+  </data>
+  <data name="button1Sair" xml:space="preserve">
+    <value>Continuar</value>
+  </data>
+  <data name="button2Sair" xml:space="preserve">
+    <value>Sair</value>
+  </data>
+  <data name="button3Sair" xml:space="preserve">
+    <value>Enviar para a bandeja</value>
+  </data>
+</root>
